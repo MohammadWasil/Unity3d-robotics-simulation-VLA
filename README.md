@@ -2,6 +2,8 @@
 
 This repository contains a Unity simulation for the **Franka FR3** robot, designed for robotic manipulation tasks such as picking up a ball and placing it into a container. 
 
+![Franka Simulation Preview](unity3d_robotic_franka_hand_fr3_setup.png)
+
 This simulation acts as the client environment, capturing visual data (such as camera images) and robot state data (such as joint poses). This data is transmitted to a cloud server running an inference engine to predict the next optimal robot action. The simulator then receives the response and executes the predicted actions in real-time.
 
 ---
